@@ -14,6 +14,8 @@ website:
         text: "About"
       - href: do_now.qmd
         text: "Do Now"
+      - href: github_help.qmd
+        text: "Github Help"
 
 format:
   html:

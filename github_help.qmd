@@ -1,0 +1,57 @@
+---
+title: "🚀 GitHub Commands Cheat Sheet"
+subtitle: "Your Reference Guide for Saving and Publishing"
+format:
+  html:
+    toc: true
+    theme: cosmo
+---
+
+Think of Git like a digital camera. Making changes in your text editor changes the scenery, but you still need to take the photo and upload it to the cloud. 
+
+Here are the three commands you will use every single day to save your work and update your live website.
+
+---
+
+## The Daily Publishing Workflow
+
+Whenever you finish a paragraph, add a data table, or update your settings, run these three commands in your terminal **in this exact order**:
+
+### 1. Stage Your Changes (The "Pack the Box" Step)
+Tell Git which modified files you want to prepare for saving. The period `.` means "grab every single change in this folder."
+
+```bash
+git add .
+```
+### 2. Commit Your Changes (The "Label the Box" Step)
+Lock in your save point with a short, descriptive message explaining what you did. Always wrap your message in quotation marks!
+
+```bash
+git commit -m "Started the Week 1 literature review"
+```
+
+### 3. Publish to the Web (The "Ship the Box" Step)
+This magical Quarto command automatically compiles your files into smooth web code and pushes them straight to your live URL.
+
+```bash
+quarto publish gh-pages
+```
+
+## Troubleshooting/FAQ
+
+❓ "I ran quarto publish gh-pages but my changes aren't showing up on my link!"
+Did you save your file? Look at the top tab of your file in VS Code or RStudio. If you see a solid circle or dot next to the filename, your file has unsaved changes! Press Ctrl + S (Windows) or Cmd + S (Mac) and try publishing again.
+
+Give it 60 seconds. Sometimes the GitHub servers take a minute to reload your fresh code. Hold down Shift and click the refresh button on your browser to clear your computer's temporary memory cache.
+
+❓ "My terminal says fatal: not a git repository"
+This means your terminal is looking at the wrong folder on your computer (like your desktop instead of your project folder).
+
+Go to the top menu of your editor and select File > Open Project (RStudio) or Open Folder (VS Code) and make sure you explicitly clicked on your my-research-project folder. Then open a fresh terminal.
+
+❓ "Git is asking for a username or password/token!"
+Don't panic! It just wants to verify you own the repository.
+
+If a window pops up asking you to sign in via your browser, click Authorize.
+
+If it asks for your password directly in the terminal, remember that you must use your GitHub Personal Access Token (PAT), not your normal GitHub login password!
