@@ -10,16 +10,16 @@ Complete these **four precise steps** immediately upon taking your seat to make 
 ### Step 1: Open Your Workspace
 
 Open your internet browser and navigate to your personal repository on **GitHub.com**.
-
+<br>
 Open either **RStudio** or **VS Code** on your laptop and ensure your `my-research-project` folder is open.
 
-- (After opening either **RStudio** or *VS Code**, select File --> Open Project --> `my-research-project`)
+    * (After opening either **RStudio** or *VS Code**, select File --> Open Project --> `my-research-project`)
 
 ### Step 2: Run Terminal Diagnostics
 
 Open your **RStudio** or **VS Code** built-in terminal 
-- For **RStudio**: Click **Terminal** on the bottom window, in between **Console** and **Background Jobs**
-- For **VS Code**: Click **Terminal** on the bottom window, in between **Debug Console** and **Ports**
+* For **RStudio**: Click **Terminal** on the bottom window, in between **Console** and **Background Jobs**
+* For **VS Code**: Click **Terminal** on the bottom window, in between **Debug Console** and **Ports**
   
 Run this command exactly:
 
