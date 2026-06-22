@@ -2,7 +2,7 @@
   {
     "objectID": "notes.html",
     "href": "notes.html",
-    "title": "project",
+    "title": "Data Science Corps Exemplar",
     "section": "",
     "text": "CREATE PROJECT WEBSITE quarto create-project –type website\nINITIALIZE GIT git init\nADD REMOTE CHANGES git add . git commit -m “initial commit”\nPUSH REMOTE CHANGES git remote add origin https://github.com/your-username/my-research-project.git git branch -M main git push -u origin main\nGO LIVE ON GITHUB PAGES quarto publish gh-pages"
   },
