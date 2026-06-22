@@ -1,38 +1,31 @@
 [
   {
-    "objectID": "notes.html",
-    "href": "notes.html",
-    "title": "Data Science Corps Exemplar",
+    "objectID": "data.html",
+    "href": "data.html",
+    "title": "Data ETL",
     "section": "",
-    "text": "CREATE PROJECT WEBSITE quarto create-project –type website\nINITIALIZE GIT git init\nADD REMOTE CHANGES git add . git commit -m “initial commit”\nPUSH REMOTE CHANGES git remote add origin https://github.com/your-username/my-research-project.git git branch -M main git push -u origin main\nGO LIVE ON GITHUB PAGES quarto publish gh-pages"
+    "text": "Here is where you will talk about what data sources you selected, and why. How do they pertain to your research questions? Was this the best data available?"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "data.html#data-selection",
+    "href": "data.html#data-selection",
+    "title": "Data ETL",
     "section": "",
-    "text": "About this site"
+    "text": "Here is where you will talk about what data sources you selected, and why. How do they pertain to your research questions? Was this the best data available?"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "project",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "objectID": "data.html#data-acquisition",
+    "href": "data.html#data-acquisition",
+    "title": "Data ETL",
+    "section": "Data Acquisition",
+    "text": "Data Acquisition\nHere is where you will talk about HOW you acquired your data. Detail any APIs used, any websites accessed, or any directories downloaded"
   },
   {
-    "objectID": "do_now.html",
-    "href": "do_now.html",
-    "title": "Do Now: Tuesday, June 23rd",
-    "section": "",
-    "text": "Complete these four precise steps immediately upon taking your seat to make sure we’re all starting from the same place!\n\n\nOpen your internet browser and navigate to your personal repository on GitHub.com.\nOpen either RStudio or VS Code on your laptop and ensure your my-research-project folder is open.\n\n(After opening either RStudio or *VS Code**, select File –&gt; Open Project –&gt; my-research-project)\n\n\n\n\nOpen your RStudio or VS Code built-in terminal\n\nFor RStudio: Click Terminal on the bottom window, in between Console and Background Jobs\nFor VS Code: Click Terminal on the bottom window, in between Debug Console and Ports\n\nRun this command exactly:\ngit status\n🙋CHECKPOINT: Look at the output in your terminal.\n\nIf it says On branch main or On branch master, proceed to Step 3.\nIf it says fatal: not a git repository, or anything else, raise your hand and I will come and help you.\n\n\n\n\nIn your terminal, copy and paste this command exactly to push your initial template structure to the web:\nquarto publish gh-pages\nNote: If prompted with Authorize Quarto to deploy to GitHub Pages? (Y/n), type Y and press Enter.\n\n\n\nOnce your terminal finishes printing, copy your live deployment URL, click the Class Roster Google Sheet link on the projector screen, and paste your link next to your name.\nGoogle Sheet: https://docs.google.com/spreadsheets/d/1e1Hj_DT2IvhIe4MlmXw8iSNTQhAovFFRztnYkRnp-_M/edit?usp=sharing\nOnce verified, click the “Week 1 Report Template” tab above to begin today’s core project framing task!"
-  },
-  {
-    "objectID": "do_now.html#welcome-to-day-2",
-    "href": "do_now.html#welcome-to-day-2",
-    "title": "Do Now: Tuesday, June 23rd",
-    "section": "",
-    "text": "Complete these four precise steps immediately upon taking your seat to make sure we’re all starting from the same place!\n\n\nOpen your internet browser and navigate to your personal repository on GitHub.com.\nOpen either RStudio or VS Code on your laptop and ensure your my-research-project folder is open.\n\n(After opening either RStudio or *VS Code**, select File –&gt; Open Project –&gt; my-research-project)\n\n\n\n\nOpen your RStudio or VS Code built-in terminal\n\nFor RStudio: Click Terminal on the bottom window, in between Console and Background Jobs\nFor VS Code: Click Terminal on the bottom window, in between Debug Console and Ports\n\nRun this command exactly:\ngit status\n🙋CHECKPOINT: Look at the output in your terminal.\n\nIf it says On branch main or On branch master, proceed to Step 3.\nIf it says fatal: not a git repository, or anything else, raise your hand and I will come and help you.\n\n\n\n\nIn your terminal, copy and paste this command exactly to push your initial template structure to the web:\nquarto publish gh-pages\nNote: If prompted with Authorize Quarto to deploy to GitHub Pages? (Y/n), type Y and press Enter.\n\n\n\nOnce your terminal finishes printing, copy your live deployment URL, click the Class Roster Google Sheet link on the projector screen, and paste your link next to your name.\nGoogle Sheet: https://docs.google.com/spreadsheets/d/1e1Hj_DT2IvhIe4MlmXw8iSNTQhAovFFRztnYkRnp-_M/edit?usp=sharing\nOnce verified, click the “Week 1 Report Template” tab above to begin today’s core project framing task!"
+    "objectID": "data.html#data-cleaning",
+    "href": "data.html#data-cleaning",
+    "title": "Data ETL",
+    "section": "Data Cleaning",
+    "text": "Data Cleaning\nHere is where you will discuss how you cleaned, engineered, or otherwise adjusted any of the data from the Acquisition stage."
   },
   {
     "objectID": "day1_lab_tutorial.html",
@@ -54,5 +47,68 @@
     "title": "Creating a Website with Quarto",
     "section": "Working Directories",
     "text": "Working Directories\nYour working directory is the folder where your current active files in your directory tree are. When you run commands in your terminal or execute code in your Quarto project, it will look for files relative to this working directory. It’s important to keep track of your working directory, especially when referencing files in your project.\nTo practice mapping paths, replace the example path below with the absolute path to your new project folder on your machine (e.g., C:/Users/YourName/... on Windows or /Users/YourName/... on Mac).\n\n\nCode\nimport os\n\n# EXERCISE: Change the string below to match YOUR local computer path\nos.chdir('/Users/nikhilpatla/Documents/DSAN/MDI/Week_1')\n\n# Check the current working directory to confirm it worked\nprint(\"Current working directory:\", os.getcwd())\n\n\nCurrent working directory: /Users/nikhilpatla/Documents/DSAN/MDI/Week_1\n\n\nYour working directory should be set to the root of your project, where your main .qmd files and _quarto.yml configuration file are located. This way, when you reference files in your project (like images or scripts), they will be found correctly.\nThis allows you to maintain a clean and organized project structure, making it easier to manage your website as it grows!"
+  },
+  {
+    "objectID": "do_now.html",
+    "href": "do_now.html",
+    "title": "Do Now: Tuesday, June 23rd",
+    "section": "",
+    "text": "Complete these four precise steps immediately upon taking your seat to make sure we’re all starting from the same place!\n\n\nOpen your internet browser and type in the following exactly:\nhttps://np767.github.io/MDI_Project/do_now.html\nYou can now follow along on your own computer!\n\n\n\nOpen your internet browser and navigate to your personal repository on GitHub.com.\nOpen either RStudio or VS Code on your laptop and ensure your my-research-project folder is open.\n\n(After opening either RStudio or *VS Code**, select File –&gt; Open Project –&gt; my-research-project)\n\n\n\n\nOpen your RStudio or VS Code built-in terminal\n\nFor RStudio: Click Terminal on the bottom window, in between Console and Background Jobs\nFor VS Code: Click Terminal on the bottom window, in between Debug Console and Ports\n\nRun this command exactly:\ngit status\n🙋CHECKPOINT: Look at the output in your terminal.\n\nIf it says On branch main or On branch master, proceed to Step 4.\nIf it says fatal: not a git repository, or anything else, raise your hand and I will come and help you.\n\n\n\n\nIn your terminal, copy and paste this command exactly to push your initial template structure to the web:\nquarto publish gh-pages\nNote: If prompted with Authorize Quarto to deploy to GitHub Pages? (Y/n), type Y and press Enter.\n\n\n\nOnce your terminal finishes printing, copy your live deployment URL, click the Google Sheet link on the projector screen, and paste your link next to your name.\nGoogle Sheet\nOnce verified, click the “Introduction” tab above, and read through the content there. The “Introduction” tab is going to be our focus over the next two days."
+  },
+  {
+    "objectID": "do_now.html#welcome-to-day-2",
+    "href": "do_now.html#welcome-to-day-2",
+    "title": "Do Now: Tuesday, June 23rd",
+    "section": "",
+    "text": "Complete these four precise steps immediately upon taking your seat to make sure we’re all starting from the same place!\n\n\nOpen your internet browser and type in the following exactly:\nhttps://np767.github.io/MDI_Project/do_now.html\nYou can now follow along on your own computer!\n\n\n\nOpen your internet browser and navigate to your personal repository on GitHub.com.\nOpen either RStudio or VS Code on your laptop and ensure your my-research-project folder is open.\n\n(After opening either RStudio or *VS Code**, select File –&gt; Open Project –&gt; my-research-project)\n\n\n\n\nOpen your RStudio or VS Code built-in terminal\n\nFor RStudio: Click Terminal on the bottom window, in between Console and Background Jobs\nFor VS Code: Click Terminal on the bottom window, in between Debug Console and Ports\n\nRun this command exactly:\ngit status\n🙋CHECKPOINT: Look at the output in your terminal.\n\nIf it says On branch main or On branch master, proceed to Step 4.\nIf it says fatal: not a git repository, or anything else, raise your hand and I will come and help you.\n\n\n\n\nIn your terminal, copy and paste this command exactly to push your initial template structure to the web:\nquarto publish gh-pages\nNote: If prompted with Authorize Quarto to deploy to GitHub Pages? (Y/n), type Y and press Enter.\n\n\n\nOnce your terminal finishes printing, copy your live deployment URL, click the Google Sheet link on the projector screen, and paste your link next to your name.\nGoogle Sheet\nOnce verified, click the “Introduction” tab above, and read through the content there. The “Introduction” tab is going to be our focus over the next two days."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "Lab Task 1: The “Why”\n\n\n\nDelete this blue box and replace it with 2–3 paragraphs explaining the real-world context of your topic. Why does this problem matter? Who is affected? What real-world impact does solving this problem achieve?\n\n\nStart typing your project introduction here…"
+  },
+  {
+    "objectID": "index.html#introduction-motivation",
+    "href": "index.html#introduction-motivation",
+    "title": "Introduction",
+    "section": "",
+    "text": "Lab Task 1: The “Why”\n\n\n\nDelete this blue box and replace it with 2–3 paragraphs explaining the real-world context of your topic. Why does this problem matter? Who is affected? What real-world impact does solving this problem achieve?\n\n\nStart typing your project introduction here…"
+  },
+  {
+    "objectID": "index.html#official-research-questions",
+    "href": "index.html#official-research-questions",
+    "title": "Introduction",
+    "section": "2 Official Research Questions",
+    "text": "2 Official Research Questions\nYour project must be guided by clear, measurable data science inquiries. Use the format below to define your scope.\n\nPrimary Research Question (RQ1): e.g., To what extent can historical local weather patterns predict weekend public transit delays in major urban centers?\nSecondary Research Question (RQ2): e.g., Does this predictive relationship hold true across different socio-economic neighborhoods within the city limits?"
+  },
+  {
+    "objectID": "index.html#initial-literature-review",
+    "href": "index.html#initial-literature-review",
+    "title": "Introduction",
+    "section": "3 Initial Literature Review",
+    "text": "3 Initial Literature Review\n\n\n\n\n\n\nAcademic Scaffolding\n\n\n\nFind at least two academic papers, industry reports, or documentation sources relevant to your domain. Summarize their findings below and explain how your specific project builds upon or differs from their methodology.\n\n\n\n3.1 Prior Work 1: [Title of Paper/Article Here]\n\nSource/Authors:\nCore Finding:\nHow it informs our project:\n\n\n\n3.2 Prior Work 2: [Title of Paper/Article Here]\n\nSource/Authors:\nCore Finding:\nHow it informs our project:"
+  },
+  {
+    "objectID": "index.html#data-source-orientation",
+    "href": "index.html#data-source-orientation",
+    "title": "Introduction",
+    "section": "4 Data Source Orientation",
+    "text": "4 Data Source Orientation\nBriefly document the raw data you intend to use to answer your research questions.\n\n\n\n\n\n\n\n\n\nData Asset Name\nSource Agency / URL\nFormat (.csv, API, SQL)\nRow/Column Count (Est.)\n\n\n\n\nExample Dataset\nCity Data Portal\n.csv\n~50,000 x 12"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "notes.html",
+    "href": "notes.html",
+    "title": "Data Science Corps Exemplar",
+    "section": "",
+    "text": "CREATE PROJECT WEBSITE quarto create-project –type website\nINITIALIZE GIT git init\nADD REMOTE CHANGES git add . git commit -m “initial commit”\nPUSH REMOTE CHANGES git remote add origin https://github.com/your-username/my-research-project.git git branch -M main git push -u origin main\nGO LIVE ON GITHUB PAGES quarto publish gh-pages"
   }
 ]

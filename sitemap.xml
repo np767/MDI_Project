@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://np767.github.io/MDI_Project/notes.html</loc>
+    <loc>https://np767.github.io/MDI_Project/data.html</loc>
+    <lastmod>2026-06-22T22:44:16.154Z</lastmod>
+  </url>
+  <url>
+    <loc>https://np767.github.io/MDI_Project/day1_lab_tutorial.html</loc>
     <lastmod>2026-06-22T21:24:58.158Z</lastmod>
+  </url>
+  <url>
+    <loc>https://np767.github.io/MDI_Project/do_now.html</loc>
+    <lastmod>2026-06-22T22:41:05.855Z</lastmod>
+  </url>
+  <url>
+    <loc>https://np767.github.io/MDI_Project/index.html</loc>
+    <lastmod>2026-06-22T22:49:05.434Z</lastmod>
   </url>
   <url>
     <loc>https://np767.github.io/MDI_Project/about.html</loc>
     <lastmod>2026-06-22T21:24:58.158Z</lastmod>
   </url>
   <url>
-    <loc>https://np767.github.io/MDI_Project/index.html</loc>
-    <lastmod>2026-06-22T21:24:58.158Z</lastmod>
-  </url>
-  <url>
-    <loc>https://np767.github.io/MDI_Project/do_now.html</loc>
-    <lastmod>2026-06-22T22:30:28.520Z</lastmod>
-  </url>
-  <url>
-    <loc>https://np767.github.io/MDI_Project/day1_lab_tutorial.html</loc>
+    <loc>https://np767.github.io/MDI_Project/notes.html</loc>
     <lastmod>2026-06-22T21:24:58.158Z</lastmod>
   </url>
 </urlset>
