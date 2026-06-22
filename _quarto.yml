@@ -2,12 +2,14 @@ project:
   type: website
 
 website:
-  title: "project"
+  title: "Data Science Corps Exemplar"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - href: do_now.qmd
+        text: Do Now
 
 format:
   html:

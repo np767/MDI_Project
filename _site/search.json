@@ -21,6 +21,20 @@
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
+    "objectID": "do_now.html",
+    "href": "do_now.html",
+    "title": "Do Now: Tuesday, June 23rd",
+    "section": "",
+    "text": "Complete these four precise steps immediately upon taking your seat to make sure we’re all starting from the same place!\n\n\nOpen your internet browser and navigate to your personal repository on GitHub.com. Open either RStudio or VS Code on your laptop and ensure your my-research-project folder is open. * (After opening either RStudio or *VS Code**, select File –&gt; Open Project –&gt; my-research-project)\n\n\n\nOpen your RStudio or VS Code built-in terminal * For RStudio: Click Terminal on the bottom window, in between Console and Background Jobs * For VS Code: Click Terminal on the bottom window, in between Debug Console and Ports\nRun this command exactly:\ngit status\n🙋CHECKPOINT: Look at the output in your terminal.\n\nIf it says On branch main or On branch master, proceed to Step 3.\nIf it says fatal: not a git repository, or anything else, raise your hand and I will come and help you.\n\n\n\n\nIn your terminal, copy and paste this command exactly to push your initial template structure to the web:\nquarto publish gh-pages\nNote: If prompted with Authorize Quarto to deploy to GitHub Pages? (Y/n), type Y and press Enter.\n\n\n\nOnce your terminal finishes printing, copy your live deployment URL, click the Class Roster Google Sheet link on the projector screen, and paste your link next to your name.\nGoogle Sheet: https://docs.google.com/spreadsheets/d/1e1Hj_DT2IvhIe4MlmXw8iSNTQhAovFFRztnYkRnp-_M/edit?usp=sharing\nOnce verified, click the “Week 1 Report Template” tab above to begin today’s core project framing task!"
+  },
+  {
+    "objectID": "do_now.html#welcome-to-day-2",
+    "href": "do_now.html#welcome-to-day-2",
+    "title": "Do Now: Tuesday, June 23rd",
+    "section": "",
+    "text": "Complete these four precise steps immediately upon taking your seat to make sure we’re all starting from the same place!\n\n\nOpen your internet browser and navigate to your personal repository on GitHub.com. Open either RStudio or VS Code on your laptop and ensure your my-research-project folder is open. * (After opening either RStudio or *VS Code**, select File –&gt; Open Project –&gt; my-research-project)\n\n\n\nOpen your RStudio or VS Code built-in terminal * For RStudio: Click Terminal on the bottom window, in between Console and Background Jobs * For VS Code: Click Terminal on the bottom window, in between Debug Console and Ports\nRun this command exactly:\ngit status\n🙋CHECKPOINT: Look at the output in your terminal.\n\nIf it says On branch main or On branch master, proceed to Step 3.\nIf it says fatal: not a git repository, or anything else, raise your hand and I will come and help you.\n\n\n\n\nIn your terminal, copy and paste this command exactly to push your initial template structure to the web:\nquarto publish gh-pages\nNote: If prompted with Authorize Quarto to deploy to GitHub Pages? (Y/n), type Y and press Enter.\n\n\n\nOnce your terminal finishes printing, copy your live deployment URL, click the Class Roster Google Sheet link on the projector screen, and paste your link next to your name.\nGoogle Sheet: https://docs.google.com/spreadsheets/d/1e1Hj_DT2IvhIe4MlmXw8iSNTQhAovFFRztnYkRnp-_M/edit?usp=sharing\nOnce verified, click the “Week 1 Report Template” tab above to begin today’s core project framing task!"
+  },
+  {
     "objectID": "day1_lab_tutorial.html",
     "href": "day1_lab_tutorial.html",
     "title": "Creating a Website with Quarto",

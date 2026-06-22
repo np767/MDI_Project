@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>notes – project</title>
+<title>Do Now: Tuesday, June 23rd – project</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -108,24 +143,77 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#welcome-to-day-2" id="toc-welcome-to-day-2" class="nav-link active" data-scroll-target="#welcome-to-day-2">Welcome to Day 2!</a>
+  <ul class="collapse">
+  <li><a href="#step-1-open-your-workspace" id="toc-step-1-open-your-workspace" class="nav-link" data-scroll-target="#step-1-open-your-workspace">Step 1: Open Your Workspace</a></li>
+  <li><a href="#step-2-run-terminal-diagnostics" id="toc-step-2-run-terminal-diagnostics" class="nav-link" data-scroll-target="#step-2-run-terminal-diagnostics">Step 2: Run Terminal Diagnostics</a></li>
+  <li><a href="#step-3-run-the-publishing-engine" id="toc-step-3-run-the-publishing-engine" class="nav-link" data-scroll-target="#step-3-run-the-publishing-engine">Step 3: Run the Publishing Engine</a></li>
+  <li><a href="#step-4-final-sign-off" id="toc-step-4-final-sign-off" class="nav-link" data-scroll-target="#step-4-final-sign-off">Step 4: Final Sign-Off</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Do Now: Tuesday, June 23rd</h1>
+<p class="subtitle lead">Data Science Corps Day 2: The ‘index.qmd’ file</p>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
-<ol type="1">
-<li><p>CREATE PROJECT WEBSITE quarto create-project –type website</p></li>
-<li><p>INITIALIZE GIT git init</p></li>
-<li><p>ADD REMOTE CHANGES git add . git commit -m “initial commit”</p></li>
-<li><p>PUSH REMOTE CHANGES git remote add origin https://github.com/your-username/my-research-project.git git branch -M main git push -u origin main</p></li>
-<li><p>GO LIVE ON GITHUB PAGES quarto publish gh-pages</p></li>
-</ol>
+    
+  
+    
+  </div>
+  
 
 
+</header>
+
+
+<section id="welcome-to-day-2" class="level2">
+<h2 class="anchored" data-anchor-id="welcome-to-day-2">Welcome to Day 2!</h2>
+<p>Complete these <strong>four precise steps</strong> immediately upon taking your seat to make sure we’re all starting from the same place!</p>
+<section id="step-1-open-your-workspace" class="level3">
+<h3 class="anchored" data-anchor-id="step-1-open-your-workspace">Step 1: Open Your Workspace</h3>
+<p>Open your internet browser and navigate to your personal repository on <strong>GitHub.com</strong>. Open either <strong>RStudio</strong> or <strong>VS Code</strong> on your laptop and ensure your <code>my-research-project</code> folder is open. * (After opening either <strong>RStudio</strong> or *VS Code**, select File –&gt; Open Project –&gt; <code>my-research-project</code>)</p>
+</section>
+<section id="step-2-run-terminal-diagnostics" class="level3">
+<h3 class="anchored" data-anchor-id="step-2-run-terminal-diagnostics">Step 2: Run Terminal Diagnostics</h3>
+<p>Open your <strong>RStudio</strong> or <strong>VS Code</strong> built-in terminal * For <strong>RStudio</strong>: Click <strong>Terminal</strong> on the bottom window, in between <strong>Console</strong> and <strong>Background Jobs</strong> * For <strong>VS Code</strong>: Click <strong>Terminal</strong> on the bottom window, in between <strong>Debug Console</strong> and <strong>Ports</strong></p>
+<p>Run this command exactly:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> status</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>🙋CHECKPOINT: Look at the output in your terminal.</p>
+<ul>
+<li>If it says <strong>On branch main</strong> or <strong>On branch master</strong>, proceed to Step 3.</li>
+<li>If it says <strong>fatal: not a git repository</strong>, or anything else, raise your hand and I will come and help you.</li>
+</ul>
+</section>
+<section id="step-3-run-the-publishing-engine" class="level3">
+<h3 class="anchored" data-anchor-id="step-3-run-the-publishing-engine">Step 3: Run the Publishing Engine</h3>
+<p>In your terminal, copy and paste this command exactly to push your initial template structure to the web:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> publish gh-pages</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>Note:</strong> If prompted with Authorize Quarto to deploy to GitHub Pages? (Y/n), type <strong>Y</strong> and press Enter.</p>
+</section>
+<section id="step-4-final-sign-off" class="level3">
+<h3 class="anchored" data-anchor-id="step-4-final-sign-off">Step 4: Final Sign-Off</h3>
+<p>Once your terminal finishes printing, copy your live deployment <strong>URL</strong>, click the Class Roster Google Sheet link on the projector screen, and paste your link next to your name.</p>
+<p>Google Sheet: https://docs.google.com/spreadsheets/d/1e1Hj_DT2IvhIe4MlmXw8iSNTQhAovFFRztnYkRnp-_M/edit?usp=sharing</p>
+<p>Once verified, click the “Week 1 Report Template” tab above to begin today’s core project framing task!</p>
+
+
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
