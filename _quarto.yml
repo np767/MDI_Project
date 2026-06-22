@@ -7,7 +7,9 @@ website:
     background: primary
     left:
       - href: index.qmd
-        text: "Home"
+        text: "Introduction"
+      - href: data.qmd
+        text: "Data"
       - href: about.qmd
         text: "About"
       - href: do_now.qmd
