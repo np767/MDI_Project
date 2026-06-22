@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "notes.html",
+    "href": "notes.html",
+    "title": "project",
+    "section": "",
+    "text": "CREATE PROJECT WEBSITE quarto create-project –type website\nINITIALIZE GIT git init\nADD REMOTE CHANGES git add . git commit -m “initial commit”\nPUSH REMOTE CHANGES git remote add origin https://github.com/your-username/my-research-project.git git branch -M main git push -u origin main\nGO LIVE ON GITHUB PAGES quarto publish gh-pages"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "project",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "day1_lab_tutorial.html",
+    "href": "day1_lab_tutorial.html",
+    "title": "Creating a Website with Quarto",
+    "section": "",
+    "text": "Before we can start creating our website with Quarto, we need to make sure we have the necessary programs and packages installed. Here are the steps to set up your environment: 1. Install R: If you haven’t already, download and install R from the CRAN website.\n\nInstall RStudio: RStudio is an integrated development environment (IDE) for R. You can download it from the RStudio website.\nInstall Python: If you plan to use Python for data processing or other tasks, you can download and install Python from the Python website. Make sure to add Python to your system PATH during installation.\nInstall Jupyter Notebook: If you want to use Jupyter Notebooks for your project, you can install it using pip:\npip install notebook\nInstall Quarto: You can download and install Quarto from the Quarto website. Follow the installation instructions for your operating system.\nInstall Required R Packages: Open RStudio and install the necessary packages for working with Quarto. You can use the following command to install the quarto package:\n\ninstall.packages(\"quarto\")\n\nInstall Additional Packages: Depending on your project, you may need additional packages for data manipulation, visualization, or other tasks. You can install them using the install.packages() function in R. For example, if you need the ggplot2 package for data visualization\n\n\n\nSome of the things we installed in the previous section (like Python and R) are programming languages, while others (like Jupyter Notebook and Quarto) are programs that allow us to write and execute code in those languages. To keep our project organized and avoid conflicts between different projects, it’s a good idea to set up a virtual environment for our project.\nA virtual environment (like venv for Python or renv for R) is a self-contained “sandbox” that contains all the necessary packages and dependencies for your project. Using a virtual environment helps to avoid conflicts between different projects and ensures that your project has access to the correct versions of packages.\n\n\n\nSandbox"
+  },
+  {
+    "objectID": "day1_lab_tutorial.html#environment-setup",
+    "href": "day1_lab_tutorial.html#environment-setup",
+    "title": "Creating a Website with Quarto",
+    "section": "",
+    "text": "Some of the things we installed in the previous section (like Python and R) are programming languages, while others (like Jupyter Notebook and Quarto) are programs that allow us to write and execute code in those languages. To keep our project organized and avoid conflicts between different projects, it’s a good idea to set up a virtual environment for our project.\nA virtual environment (like venv for Python or renv for R) is a self-contained “sandbox” that contains all the necessary packages and dependencies for your project. Using a virtual environment helps to avoid conflicts between different projects and ensures that your project has access to the correct versions of packages.\n\n\n\nSandbox"
+  },
+  {
+    "objectID": "day1_lab_tutorial.html#working-directories",
+    "href": "day1_lab_tutorial.html#working-directories",
+    "title": "Creating a Website with Quarto",
+    "section": "Working Directories",
+    "text": "Working Directories\nYour working directory is the folder where your current active files in your directory tree are. When you run commands in your terminal or execute code in your Quarto project, it will look for files relative to this working directory. It’s important to keep track of your working directory, especially when referencing files in your project.\nTo practice mapping paths, replace the example path below with the absolute path to your new project folder on your machine (e.g., C:/Users/YourName/... on Windows or /Users/YourName/... on Mac).\n\n\nCode\nimport os\n\n# EXERCISE: Change the string below to match YOUR local computer path\nos.chdir('/Users/nikhilpatla/Documents/DSAN/MDI/Week_1')\n\n# Check the current working directory to confirm it worked\nprint(\"Current working directory:\", os.getcwd())\n\n\nCurrent working directory: /Users/nikhilpatla/Documents/DSAN/MDI/Week_1\n\n\nYour working directory should be set to the root of your project, where your main .qmd files and _quarto.yml configuration file are located. This way, when you reference files in your project (like images or scripts), they will be found correctly.\nThis allows you to maintain a clean and organized project structure, making it easier to manage your website as it grows!"
+  }
+]
