@@ -1,0 +1,49 @@
+---
+title: "Do Now: Tuesday, June 23rd"
+subtitle: "Data Science Corps Day 2: The 'index.qmd' file"
+---
+
+## Welcome to Day 2! 
+
+Complete these **four precise steps** immediately upon taking your seat to make sure we're all starting from the same place!
+
+### Step 1: Open Your Workspace
+
+Open your internet browser and navigate to your personal repository on **GitHub.com**.
+Open either **RStudio** or **VS Code** on your laptop and ensure your `my-research-project` folder is open.
+    * (After opening either **RStudio** or *VS Code**, select File --> Open Project --> `my-research-project`)
+
+### Step 2: Run Terminal Diagnostics
+
+Open your **RStudio** or **VS Code** built-in terminal 
+  * For **RStudio**: Click **Terminal** on the bottom window, in between **Console** and **Background Jobs**
+  * For **VS Code**: Click **Terminal** on the bottom window, in between **Debug Console** and **Ports**
+  
+Run this command exactly:
+
+```bash
+git status
+```
+
+🙋CHECKPOINT: Look at the output in your terminal.
+
+* If it says **On branch main** or **On branch master**, proceed to Step 3.
+* If it says **fatal: not a git repository**, or anything else, raise your hand and I will come and help you.
+
+### Step 3: Run the Publishing Engine
+
+In your terminal, copy and paste this command exactly to push your initial template structure to the web:
+
+```bash
+quarto publish gh-pages
+```
+
+**Note:** If prompted with Authorize Quarto to deploy to GitHub Pages? (Y/n), type **Y** and press Enter.
+
+### Step 4: Final Sign-Off
+Once your terminal finishes printing, copy your live deployment **URL**, click the Class Roster Google Sheet link on the projector screen, and paste your link next to your name.
+
+Google Sheet: https://docs.google.com/spreadsheets/d/1e1Hj_DT2IvhIe4MlmXw8iSNTQhAovFFRztnYkRnp-_M/edit?usp=sharing
+
+Once verified, click the "Week 1 Report Template" tab above to begin today's core project framing task!
+
