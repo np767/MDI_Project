@@ -5,6 +5,7 @@ subtitle: "Data Science Corps Day 2: The 'index.qmd' file"
 format:
   html:
     toc: true
+    number-sections: true
 ---
 
 ## Welcome to Day 2! 
@@ -25,7 +26,7 @@ Open your internet browser and navigate to your personal repository on **GitHub.
 
 Open either **RStudio** or **VS Code** on your laptop and ensure your `my-research-project` folder is open.
 
-- (After opening either **RStudio** or *VS Code**, select File --> Open Project --> `my-research-project`)
+- (After opening either **RStudio** or **VS Code**, select File --> Open Project/Folder --> `my-research-project`)
 
 ### Step 3: Run Terminal Diagnostics
 
@@ -56,7 +57,7 @@ quarto publish gh-pages
 **Note:** If prompted with Authorize Quarto to deploy to GitHub Pages? (Y/n), type **Y** and press Enter.
 
 ### Step 5: Final Sign-Off
-Once your terminal finishes printing, copy your live deployment **URL**, click the Google Sheet link on the projector screen, and paste your link next to your name.
+Once your terminal finishes printing, copy your live deployment **URL**, click the Google Sheet link below, and paste your link next to your name.
 
 [Google Sheet](https://docs.google.com/spreadsheets/d/1e1Hj_DT2IvhIe4MlmXw8iSNTQhAovFFRztnYkRnp-_M/edit?usp=sharing)
 
