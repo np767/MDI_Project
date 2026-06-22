@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Do Now: Tuesday, June 23rd – Data Science Corps Exemplar</title>
+<title>🚀 GitHub Commands Cheat Sheet – Data Science Corps Exemplar</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -137,11 +137,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./do_now.html" aria-current="page"> 
+    <a class="nav-link" href="./do_now.html"> 
 <span class="menu-text">Do Now</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./github_help.html"> 
+    <a class="nav-link active" href="./github_help.html" aria-current="page"> 
 <span class="menu-text">Github Help</span></a>
   </li>  
 </ul>
@@ -160,14 +160,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#welcome-to-day-2" id="toc-welcome-to-day-2" class="nav-link active" data-scroll-target="#welcome-to-day-2"><span class="header-section-number">1</span> Welcome to Day 2!</a>
+  <li><a href="#the-daily-publishing-workflow" id="toc-the-daily-publishing-workflow" class="nav-link active" data-scroll-target="#the-daily-publishing-workflow">The Daily Publishing Workflow</a>
   <ul class="collapse">
-  <li><a href="#step-1-open-this-website" id="toc-step-1-open-this-website" class="nav-link" data-scroll-target="#step-1-open-this-website"><span class="header-section-number">1.1</span> Step 1: Open this Website</a></li>
-  <li><a href="#step-2-open-your-workspace" id="toc-step-2-open-your-workspace" class="nav-link" data-scroll-target="#step-2-open-your-workspace"><span class="header-section-number">1.2</span> Step 2: Open Your Workspace</a></li>
-  <li><a href="#step-3-run-terminal-diagnostics" id="toc-step-3-run-terminal-diagnostics" class="nav-link" data-scroll-target="#step-3-run-terminal-diagnostics"><span class="header-section-number">1.3</span> Step 3: Run Terminal Diagnostics</a></li>
-  <li><a href="#step-4-run-the-publishing-engine" id="toc-step-4-run-the-publishing-engine" class="nav-link" data-scroll-target="#step-4-run-the-publishing-engine"><span class="header-section-number">1.4</span> Step 4: Run the Publishing Engine</a></li>
-  <li><a href="#step-5-final-sign-off" id="toc-step-5-final-sign-off" class="nav-link" data-scroll-target="#step-5-final-sign-off"><span class="header-section-number">1.5</span> Step 5: Final Sign-Off</a></li>
+  <li><a href="#stage-your-changes-the-pack-the-box-step" id="toc-stage-your-changes-the-pack-the-box-step" class="nav-link" data-scroll-target="#stage-your-changes-the-pack-the-box-step">1. Stage Your Changes (The “Pack the Box” Step)</a></li>
+  <li><a href="#commit-your-changes-the-label-the-box-step" id="toc-commit-your-changes-the-label-the-box-step" class="nav-link" data-scroll-target="#commit-your-changes-the-label-the-box-step">2. Commit Your Changes (The “Label the Box” Step)</a></li>
+  <li><a href="#publish-to-the-web-the-ship-the-box-step" id="toc-publish-to-the-web-the-ship-the-box-step" class="nav-link" data-scroll-target="#publish-to-the-web-the-ship-the-box-step">3. Publish to the Web (The “Ship the Box” Step)</a></li>
   </ul></li>
+  <li><a href="#troubleshootingfaq" id="toc-troubleshootingfaq" class="nav-link" data-scroll-target="#troubleshootingfaq">Troubleshooting/FAQ</a></li>
   </ul>
 </nav>
     </div>
@@ -176,8 +175,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Do Now: Tuesday, June 23rd</h1>
-<p class="subtitle lead">Data Science Corps Day 2: The ‘index.qmd’ file</p>
+<h1 class="title">🚀 GitHub Commands Cheat Sheet</h1>
+<p class="subtitle lead">Your Reference Guide for Saving and Publishing</p>
 </div>
 
 
@@ -194,52 +193,39 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="welcome-to-day-2" class="level2" data-number="1">
-<h2 data-number="1" class="anchored" data-anchor-id="welcome-to-day-2"><span class="header-section-number">1</span> Welcome to Day 2!</h2>
-<p>Complete these <strong>four precise steps</strong> immediately upon taking your seat to make sure we’re all starting from the same place!</p>
-<section id="step-1-open-this-website" class="level3" data-number="1.1">
-<h3 data-number="1.1" class="anchored" data-anchor-id="step-1-open-this-website"><span class="header-section-number">1.1</span> Step 1: Open this Website</h3>
-<p>Open your internet browser and type in the following exactly:</p>
-<p>https://np767.github.io/MDI_Project/do_now.html</p>
-<p>You can now follow along on your own computer!</p>
+<p>Think of Git like a digital camera. Making changes in your text editor changes the scenery, but you still need to take the photo and upload it to the cloud.</p>
+<p>Here are the three commands you will use every single day to save your work and update your live website.</p>
+<hr>
+<section id="the-daily-publishing-workflow" class="level2">
+<h2 class="anchored" data-anchor-id="the-daily-publishing-workflow">The Daily Publishing Workflow</h2>
+<p>Whenever you finish a paragraph, add a data table, or update your settings, run these three commands in your terminal <strong>in this exact order</strong>:</p>
+<section id="stage-your-changes-the-pack-the-box-step" class="level3">
+<h3 class="anchored" data-anchor-id="stage-your-changes-the-pack-the-box-step">1. Stage Your Changes (The “Pack the Box” Step)</h3>
+<p>Tell Git which modified files you want to prepare for saving. The period <code>.</code> means “grab every single change in this folder.”</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="step-2-open-your-workspace" class="level3" data-number="1.2">
-<h3 data-number="1.2" class="anchored" data-anchor-id="step-2-open-your-workspace"><span class="header-section-number">1.2</span> Step 2: Open Your Workspace</h3>
-<p>Open your internet browser and navigate to your personal repository on <strong>GitHub.com</strong>.</p>
-<p>Open either <strong>RStudio</strong> or <strong>VS Code</strong> on your laptop and ensure your <code>my-research-project</code> folder is open.</p>
-<ul>
-<li>(After opening either <strong>RStudio</strong> or <strong>VS Code</strong>, select File –&gt; Open Project/Folder –&gt; <code>my-research-project</code>)</li>
-</ul>
+<section id="commit-your-changes-the-label-the-box-step" class="level3">
+<h3 class="anchored" data-anchor-id="commit-your-changes-the-label-the-box-step">2. Commit Your Changes (The “Label the Box” Step)</h3>
+<p>Lock in your save point with a short, descriptive message explaining what you did. Always wrap your message in quotation marks!</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Started the Week 1 literature review"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="step-3-run-terminal-diagnostics" class="level3" data-number="1.3">
-<h3 data-number="1.3" class="anchored" data-anchor-id="step-3-run-terminal-diagnostics"><span class="header-section-number">1.3</span> Step 3: Run Terminal Diagnostics</h3>
-<p>Open your <strong>RStudio</strong> or <strong>VS Code</strong> built-in terminal</p>
-<ul>
-<li>For <strong>RStudio</strong>: Click <strong>Terminal</strong> on the bottom window, in between <strong>Console</strong> and <strong>Background Jobs</strong></li>
-<li>For <strong>VS Code</strong>: Click <strong>Terminal</strong> on the bottom window, in between <strong>Debug Console</strong> and <strong>Ports</strong></li>
-</ul>
-<p>Run this command exactly:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> status</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>🙋CHECKPOINT: Look at the output in your terminal.</p>
-<ul>
-<li>If it says <strong>On branch main</strong> or <strong>On branch master</strong>, proceed to Step 4.</li>
-<li>If it says <strong>fatal: not a git repository</strong>, or anything else, raise your hand and I will come and help you.</li>
-</ul>
+<section id="publish-to-the-web-the-ship-the-box-step" class="level3">
+<h3 class="anchored" data-anchor-id="publish-to-the-web-the-ship-the-box-step">3. Publish to the Web (The “Ship the Box” Step)</h3>
+<p>This magical Quarto command automatically compiles your files into smooth web code and pushes them straight to your live URL.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> publish gh-pages</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="step-4-run-the-publishing-engine" class="level3" data-number="1.4">
-<h3 data-number="1.4" class="anchored" data-anchor-id="step-4-run-the-publishing-engine"><span class="header-section-number">1.4</span> Step 4: Run the Publishing Engine</h3>
-<p>In your terminal, copy and paste this command exactly to push your initial template structure to the web:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> publish gh-pages</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p><strong>Note:</strong> If prompted with Authorize Quarto to deploy to GitHub Pages? (Y/n), type <strong>Y</strong> and press Enter.</p>
 </section>
-<section id="step-5-final-sign-off" class="level3" data-number="1.5">
-<h3 data-number="1.5" class="anchored" data-anchor-id="step-5-final-sign-off"><span class="header-section-number">1.5</span> Step 5: Final Sign-Off</h3>
-<p>Once your terminal finishes printing, copy your live deployment <strong>URL</strong>, click the Google Sheet link below, and paste your link next to your name.</p>
-<p><a href="https://docs.google.com/spreadsheets/d/1e1Hj_DT2IvhIe4MlmXw8iSNTQhAovFFRztnYkRnp-_M/edit?usp=sharing">Google Sheet</a></p>
-<p>Once verified, click the “Introduction” tab above, and read through the content there. The “Introduction” tab is going to be our focus over the next two days.</p>
+<section id="troubleshootingfaq" class="level2">
+<h2 class="anchored" data-anchor-id="troubleshootingfaq">Troubleshooting/FAQ</h2>
+<p>❓ “I ran quarto publish gh-pages but my changes aren’t showing up on my link!” Did you save your file? Look at the top tab of your file in VS Code or RStudio. If you see a solid circle or dot next to the filename, your file has unsaved changes! Press Ctrl + S (Windows) or Cmd + S (Mac) and try publishing again.</p>
+<p>Give it 60 seconds. Sometimes the GitHub servers take a minute to reload your fresh code. Hold down Shift and click the refresh button on your browser to clear your computer’s temporary memory cache.</p>
+<p>❓ “My terminal says fatal: not a git repository” This means your terminal is looking at the wrong folder on your computer (like your desktop instead of your project folder).</p>
+<p>Go to the top menu of your editor and select File &gt; Open Project (RStudio) or Open Folder (VS Code) and make sure you explicitly clicked on your my-research-project folder. Then open a fresh terminal.</p>
+<p>❓ “Git is asking for a username or password/token!” Don’t panic! It just wants to verify you own the repository.</p>
+<p>If a window pops up asking you to sign in via your browser, click Authorize.</p>
+<p>If it asks for your password directly in the terminal, remember that you must use your GitHub Personal Access Token (PAT), not your normal GitHub login password!</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
