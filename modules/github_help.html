@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Introduction – Data Science Corps Exemplar</title>
+<title>🚀 GitHub Commands Cheat Sheet – Data Science Corps Exemplar</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,26 +20,61 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-9344fb9851b4da3cab95007ef9d770dc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-9344fb9851b4da3cab95007ef9d770dc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -79,7 +114,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Data Science Corps Exemplar</span>
     </a>
   </div>
@@ -90,23 +125,23 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Introduction</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./modules/data.html"> 
+    <a class="nav-link" href="../modules/data.html"> 
 <span class="menu-text">Data</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./modules/about.html"> 
+    <a class="nav-link" href="../modules/about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./modules/do_now.html"> 
+    <a class="nav-link" href="../modules/do_now.html"> 
 <span class="menu-text">Do Now</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./modules/github_help.html"> 
+    <a class="nav-link active" href="../modules/github_help.html" aria-current="page"> 
 <span class="menu-text">Github Help</span></a>
   </li>  
 </ul>
@@ -124,11 +159,15 @@ ul.task-list li input[type="checkbox"] {
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
+  <ul>
+  <li><a href="#the-daily-publishing-workflow" id="toc-the-daily-publishing-workflow" class="nav-link active" data-scroll-target="#the-daily-publishing-workflow">The Daily Publishing Workflow</a>
   <ul class="collapse">
-  <li><a href="#introduction-motivation" id="toc-introduction-motivation" class="nav-link active" data-scroll-target="#introduction-motivation"><span class="header-section-number">1</span> Introduction &amp; Motivation</a></li>
-  <li><a href="#official-research-questions" id="toc-official-research-questions" class="nav-link" data-scroll-target="#official-research-questions"><span class="header-section-number">2</span> Official Research Questions</a></li>
-  <li><a href="#initial-literature-review" id="toc-initial-literature-review" class="nav-link" data-scroll-target="#initial-literature-review"><span class="header-section-number">3</span> Initial Literature Review</a></li>
-  <li><a href="#data-source-orientation" id="toc-data-source-orientation" class="nav-link" data-scroll-target="#data-source-orientation"><span class="header-section-number">4</span> Data Source Orientation</a></li>
+  <li><a href="#stage-your-changes-the-pack-the-box-step" id="toc-stage-your-changes-the-pack-the-box-step" class="nav-link" data-scroll-target="#stage-your-changes-the-pack-the-box-step">1. Stage Your Changes (The “Pack the Box” Step)</a></li>
+  <li><a href="#commit-your-changes-the-label-the-box-step" id="toc-commit-your-changes-the-label-the-box-step" class="nav-link" data-scroll-target="#commit-your-changes-the-label-the-box-step">2. Commit Your Changes (The “Label the Box” Step)</a></li>
+  <li><a href="#push-changes-to-github" id="toc-push-changes-to-github" class="nav-link" data-scroll-target="#push-changes-to-github">3. Push changes to Github</a></li>
+  <li><a href="#publish-to-the-web-the-ship-the-box-step" id="toc-publish-to-the-web-the-ship-the-box-step" class="nav-link" data-scroll-target="#publish-to-the-web-the-ship-the-box-step">4. Publish to the Web (The “Ship the Box” Step)</a></li>
+  </ul></li>
+  <li><a href="#troubleshootingfaq" id="toc-troubleshootingfaq" class="nav-link" data-scroll-target="#troubleshootingfaq">Troubleshooting/FAQ</a></li>
   </ul>
 </nav>
     </div>
@@ -137,8 +176,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Introduction</h1>
-<p class="subtitle lead">Project Framing and Literature Review</p>
+<h1 class="title">🚀 GitHub Commands Cheat Sheet</h1>
+<p class="subtitle lead">Your Reference Guide for Saving and Publishing</p>
 </div>
 
 
@@ -155,99 +194,42 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="introduction-motivation" class="level2" data-number="1">
-<h2 data-number="1" class="anchored" data-anchor-id="introduction-motivation"><span class="header-section-number">1</span> Introduction &amp; Motivation</h2>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Lab Task 1: The “Why”
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Delete this blue box and replace it with 2–3 paragraphs explaining the real-world context of your topic. Why does this problem matter? Who is affected? What real-world impact does solving this problem achieve?</p>
-</div>
-</div>
-<p><em>Start typing your project introduction here…</em></p>
+<p>Think of Git like a digital camera. Making changes in your text editor changes the scenery, but you still need to take the photo and upload it to the cloud.</p>
+<p>Here are the three commands you will use every single day to save your work and update your live website.</p>
 <hr>
+<section id="the-daily-publishing-workflow" class="level2">
+<h2 class="anchored" data-anchor-id="the-daily-publishing-workflow">The Daily Publishing Workflow</h2>
+<p>Whenever you finish a paragraph, add a data table, or update your settings, run these three commands in your terminal <strong>in this exact order</strong>:</p>
+<section id="stage-your-changes-the-pack-the-box-step" class="level3">
+<h3 class="anchored" data-anchor-id="stage-your-changes-the-pack-the-box-step">1. Stage Your Changes (The “Pack the Box” Step)</h3>
+<p>Tell Git which modified files you want to prepare for saving. The period <code>.</code> means “grab every single change in this folder.”</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="official-research-questions" class="level2" data-number="2">
-<h2 data-number="2" class="anchored" data-anchor-id="official-research-questions"><span class="header-section-number">2</span> Official Research Questions</h2>
-<p>Your project must be guided by clear, measurable data science inquiries. Use the format below to define your scope.</p>
-<ul>
-<li><strong>Primary Research Question (RQ1):</strong> <em>e.g., To what extent can historical local weather patterns predict weekend public transit delays in major urban centers?</em></li>
-<li><strong>Secondary Research Question (RQ2):</strong> <em>e.g., Does this predictive relationship hold true across different socio-economic neighborhoods within the city limits?</em></li>
-</ul>
-<hr>
+<section id="commit-your-changes-the-label-the-box-step" class="level3">
+<h3 class="anchored" data-anchor-id="commit-your-changes-the-label-the-box-step">2. Commit Your Changes (The “Label the Box” Step)</h3>
+<p>Lock in your save point with a short, descriptive message explaining what you did. Always wrap your message in quotation marks!</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Started the Week 1 literature review"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="initial-literature-review" class="level2" data-number="3">
-<h2 data-number="3" class="anchored" data-anchor-id="initial-literature-review"><span class="header-section-number">3</span> Initial Literature Review</h2>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Academic Scaffolding
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Find at least two academic papers, industry reports, or documentation sources relevant to your domain. Summarize their findings below and explain how your specific project builds upon or differs from their methodology.</p>
-</div>
-</div>
-<section id="prior-work-1-title-of-paperarticle-here" class="level3" data-number="3.1">
-<h3 data-number="3.1" class="anchored" data-anchor-id="prior-work-1-title-of-paperarticle-here"><span class="header-section-number">3.1</span> Prior Work 1: [Title of Paper/Article Here]</h3>
-<ul>
-<li><strong>Source/Authors:</strong></li>
-<li><strong>Core Finding:</strong></li>
-<li><strong>How it informs our project:</strong></li>
-</ul>
+<section id="push-changes-to-github" class="level3">
+<h3 class="anchored" data-anchor-id="push-changes-to-github">3. Push changes to Github</h3>
+<p>“Push” or send your changes to Github to make sure your computer matches what is on your Github storage!</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="prior-work-2-title-of-paperarticle-here" class="level3" data-number="3.2">
-<h3 data-number="3.2" class="anchored" data-anchor-id="prior-work-2-title-of-paperarticle-here"><span class="header-section-number">3.2</span> Prior Work 2: [Title of Paper/Article Here]</h3>
-<ul>
-<li><strong>Source/Authors:</strong></li>
-<li><strong>Core Finding:</strong></li>
-<li><strong>How it informs our project:</strong></li>
-</ul>
-<hr>
+<section id="publish-to-the-web-the-ship-the-box-step" class="level3">
+<h3 class="anchored" data-anchor-id="publish-to-the-web-the-ship-the-box-step">4. Publish to the Web (The “Ship the Box” Step)</h3>
+<p>This magical Quarto command automatically compiles your files into smooth web code and pushes them straight to your live URL.</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> publish gh-pages</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 </section>
-<section id="data-source-orientation" class="level2" data-number="4">
-<h2 data-number="4" class="anchored" data-anchor-id="data-source-orientation"><span class="header-section-number">4</span> Data Source Orientation</h2>
-<p>Briefly document the raw data you intend to use to answer your research questions.</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 19%">
-<col style="width: 23%">
-<col style="width: 28%">
-<col style="width: 28%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Data Asset Name</th>
-<th>Source Agency / URL</th>
-<th>Format (.csv, API, SQL)</th>
-<th>Row/Column Count (Est.)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><em>Example Dataset</em></td>
-<td><em>City Data Portal</em></td>
-<td><em>.csv</em></td>
-<td><em>~50,000 x 12</em></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<section id="troubleshootingfaq" class="level2">
+<h2 class="anchored" data-anchor-id="troubleshootingfaq">Troubleshooting/FAQ</h2>
+<p>❓ “I ran quarto publish gh-pages but my changes aren’t showing up on my link!” Did you save your file? Look at the top tab of your file in VS Code or RStudio. If you see a solid circle or dot next to the filename, your file has unsaved changes! Press Ctrl + S (Windows) or Cmd + S (Mac) and try publishing again.</p>
+<p>Give it 60 seconds. Sometimes the GitHub servers take a minute to reload your fresh code. Hold down Shift and click the refresh button on your browser to clear your computer’s temporary memory cache.</p>
+<p>❓ “My terminal says fatal: not a git repository” This means your terminal is looking at the wrong folder on your computer (like your desktop instead of your project folder).</p>
+<p>Go to the top menu of your editor and select File &gt; Open Project (RStudio) or Open Folder (VS Code) and make sure you explicitly clicked on your my-research-project folder. Then open a fresh terminal.</p>
+<p>❓ “Git is asking for a username or password/token!” Don’t panic! It just wants to verify you own the repository.</p>
+<p>If a window pops up asking you to sign in via your browser, click Authorize.</p>
+<p>If it asks for your password directly in the terminal, remember that you must use your GitHub Personal Access Token (PAT), not your normal GitHub login password!</p>
 
 
 </section>
