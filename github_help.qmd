@@ -30,7 +30,14 @@ Lock in your save point with a short, descriptive message explaining what you di
 git commit -m "Started the Week 1 literature review"
 ```
 
-### 3. Publish to the Web (The "Ship the Box" Step)
+### 3. Push changes to Github
+"Push" or send your changes to Github to make sure your computer matches what is on your Github storage!
+
+```bash
+git push
+```
+
+### 4. Publish to the Web (The "Ship the Box" Step)
 This magical Quarto command automatically compiles your files into smooth web code and pushes them straight to your live URL.
 
 ```bash
