@@ -8,13 +8,13 @@ website:
     left:
       - href: index.qmd
         text: "Introduction"
-      - href: data.qmd
+      - href: modules/data.qmd
         text: "Data"
-      - href: about.qmd
+      - href: modules/about.qmd
         text: "About"
-      - href: do_now.qmd
+      - href: modules/do_now.qmd
         text: "Do Now"
-      - href: github_help.qmd
+      - href: modules/github_help.qmd
         text: "Github Help"
 
 format:
