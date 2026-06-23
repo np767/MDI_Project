@@ -5,7 +5,7 @@ subtitle: "Data Science Corps Day 3: Getting Data"
 format:
   html:
     toc: true
-    number-sections: true
+    number-sections: false
 ---
 
 ## Welcome to Day 3! 

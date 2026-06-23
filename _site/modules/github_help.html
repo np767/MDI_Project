@@ -195,11 +195,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <p>Think of Git like a digital camera. Making changes in your text editor changes the scenery, but you still need to take the photo and upload it to the cloud.</p>
-<p>Here are the three commands you will use every single day to save your work and update your live website.</p>
+<p>Here are the four commands you will use every single day to save your work and update your live website.</p>
 <hr>
 <section id="the-daily-publishing-workflow" class="level2">
 <h2 class="anchored" data-anchor-id="the-daily-publishing-workflow">The Daily Publishing Workflow</h2>
-<p>Whenever you finish a paragraph, add a data table, or update your settings, run these three commands in your terminal <strong>in this exact order</strong>:</p>
+<p>Whenever you finish a paragraph, add a data table, or update your settings, run these four commands in your terminal <strong>in this exact order</strong>:</p>
 <section id="stage-your-changes-the-pack-the-box-step" class="level3">
 <h3 class="anchored" data-anchor-id="stage-your-changes-the-pack-the-box-step">1. Stage Your Changes (The “Pack the Box” Step)</h3>
 <p>Tell Git which modified files you want to prepare for saving. The period <code>.</code> means “grab every single change in this folder.”</p>
@@ -223,11 +223,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="troubleshootingfaq" class="level2">
 <h2 class="anchored" data-anchor-id="troubleshootingfaq">Troubleshooting/FAQ</h2>
-<p>❓ “I ran quarto publish gh-pages but my changes aren’t showing up on my link!” Did you save your file? Look at the top tab of your file in VS Code or RStudio. If you see a solid circle or dot next to the filename, your file has unsaved changes! Press Ctrl + S (Windows) or Cmd + S (Mac) and try publishing again.</p>
+<p>❓ “I ran quarto publish gh-pages but my changes aren’t showing up on my link!”</p>
+<p>Did you save your file? Look at the top tab of your file in VS Code or RStudio. If you see a solid circle or dot next to the filename, your file has unsaved changes! Press Ctrl + S (Windows) or Cmd + S (Mac) and try publishing again.</p>
 <p>Give it 60 seconds. Sometimes the GitHub servers take a minute to reload your fresh code. Hold down Shift and click the refresh button on your browser to clear your computer’s temporary memory cache.</p>
-<p>❓ “My terminal says fatal: not a git repository” This means your terminal is looking at the wrong folder on your computer (like your desktop instead of your project folder).</p>
+<p>❓ “My terminal says fatal: not a git repository”</p>
+<p>This means your terminal is looking at the wrong folder on your computer (like your desktop instead of your project folder).</p>
 <p>Go to the top menu of your editor and select File &gt; Open Project (RStudio) or Open Folder (VS Code) and make sure you explicitly clicked on your my-research-project folder. Then open a fresh terminal.</p>
-<p>❓ “Git is asking for a username or password/token!” Don’t panic! It just wants to verify you own the repository.</p>
+<p>❓ “Git is asking for a username or password/token!”</p>
+<p>Don’t panic! It just wants to verify you own the repository.</p>
 <p>If a window pops up asking you to sign in via your browser, click Authorize.</p>
 <p>If it asks for your password directly in the terminal, remember that you must use your GitHub Personal Access Token (PAT), not your normal GitHub login password!</p>
 
