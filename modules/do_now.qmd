@@ -43,7 +43,9 @@ quarto publish gh-pages
 Once it publishes, refresh your page once or twice to make sure no links are broken, and all your work is accurate and updated.
 
 ---
+
 #### From Thursday (tomorrow), steps 1, 2, and 3 should be standard operating procedure for starting each afternoon session!
+
 ---
 
 ### Step 4: The Game Plan — Catching Up and Moving Forward
