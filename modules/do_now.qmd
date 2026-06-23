@@ -1,6 +1,6 @@
 ---
-title: "Do Now: Tuesday, June 23rd"
-subtitle: "Data Science Corps Day 2: The 'index.qmd' file"
+title: "Do Now: Wednesday, June 24th"
+subtitle: "Data Science Corps Day 3: Getting Data"
 
 format:
   html:
@@ -8,34 +8,20 @@ format:
     number-sections: true
 ---
 
-## Welcome to Day 2! 
+## Welcome to Day 3! 
 
 Complete these **four precise steps** immediately upon taking your seat to make sure we're all starting from the same place!
 
-### Step 1: Open this Website
+### Step 1: Open all necessary windows
 
-Open your internet browser and type in the following exactly:
+Things you may need to open:
 
-https://np767.github.io/MDI_Project/do_now.html
+- IDE: **RStudio** or **VS Code**. Make sure you open the correct `research-project` folder (File --> Open Project/Folder --> `my-research-project`)
+- Web Browser: Open your **github repository**, your **github pages url**, AND **this Do Now page** (np767.github.io/MDI_Project/do_now.html/)
 
-You can now follow along on your own computer!
+### Step 2: Make sure your github is bug-free
 
-### Step 2: Open Your Workspace
-
-Open your internet browser and navigate to your personal repository on **GitHub.com**.
-
-Open either **RStudio** or **VS Code** on your laptop and ensure your `my-research-project` folder is open.
-
-- (After opening either **RStudio** or **VS Code**, select File --> Open Project/Folder --> `my-research-project`)
-
-### Step 3: Run Terminal Diagnostics
-
-Open your **RStudio** or **VS Code** built-in terminal 
-
-- For **RStudio**: Click **Terminal** on the bottom window, in between **Console** and **Background Jobs**
-- For **VS Code**: Click **Terminal** on the bottom window, in between **Debug Console** and **Ports**
-  
-Run this command exactly:
+Run the following command in the terminal once you have opened your project folder:
 
 ```bash
 git status
@@ -43,23 +29,36 @@ git status
 
 🙋CHECKPOINT: Look at the output in your terminal.
 
-* If it says **On branch main** or **On branch master**, proceed to Step 4.
+* If it says **On branch main** or **On branch master**, proceed to Step 3.
 * If it says **fatal: not a git repository**, or anything else, raise your hand and I will come and help you.
 
-### Step 4: Run the Publishing Engine
+### Step 3: Publish your page again
 
-In your terminal, copy and paste this command exactly to push your initial template structure to the web:
+Re-publish your page to make sure all changes/updates are live. Run the following command **exactly** in the terminal:
 
 ```bash
 quarto publish gh-pages
 ```
 
-**Note:** If prompted with Authorize Quarto to deploy to GitHub Pages? (Y/n), type **Y** and press Enter.
+Once it publishes, refresh your page once or twice to make sure no links are broken, and all your work is accurate and updated.
 
-### Step 5: Final Sign-Off
-Once your terminal finishes printing, copy your live deployment **URL**, click the Google Sheet link below, and paste your link next to your name.
+---
+#### From Thursday (tomorrow), steps 1, 2, and 3 should be standard operating procedure for starting each afternoon session!
+---
 
-[Google Sheet](https://docs.google.com/spreadsheets/d/1e1Hj_DT2IvhIe4MlmXw8iSNTQhAovFFRztnYkRnp-_M/edit?usp=sharing)
+### Step 4: The Game Plan — Catching Up and Moving Forward
 
-Once verified, click the "Introduction" tab above, and read through the content there. The "Introduction" tab is going to be our focus over the next two days.
+Today is a "bridge" day. Before we can download datasets, we must lock in our research goals. Your milestones for today's lab session are:
 
+1.  **Literature Review:** Complete your reading and summarize **AT LEAST 1** target background paper on your homepage. Update your `index.qmd` file to reflect your summary and findings.
+
+2.  **Research Questions:** Narrow your target scope down to **AT LEAST 1** Primary question. Update your `index.qmd` file to reflect your research question(s).
+
+3.  **Locate Data:** Identify **AT LEAST 1** exact CSV link, API, or database you will analyze. 
+
+4.  **Start the Data Tab:** Create a new file in your project folder called `data.qmd`. Update your `data.qmd` file to document your data source as well as a brief summary of the contents of the data. Feel free to copy my template (by finding my `data.qmd` file inside the `modules` folder in my repository), or create your own with custom Markdown!
+
+:::{.callout-note collapse="true"}
+## Important: How to add the Data tab to your navigation menu
+Because data.qmd is a brand new page, you need to tell your website to show it in the top navigation bar. When you get to this step, your data tab will **not** show up if you re-publish your page. Raise your hand and let me know when you have reached this step!
+:::

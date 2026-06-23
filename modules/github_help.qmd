@@ -9,13 +9,13 @@ format:
 
 Think of Git like a digital camera. Making changes in your text editor changes the scenery, but you still need to take the photo and upload it to the cloud. 
 
-Here are the three commands you will use every single day to save your work and update your live website.
+Here are the four commands you will use every single day to save your work and update your live website.
 
 ---
 
 ## The Daily Publishing Workflow
 
-Whenever you finish a paragraph, add a data table, or update your settings, run these three commands in your terminal **in this exact order**:
+Whenever you finish a paragraph, add a data table, or update your settings, run these four commands in your terminal **in this exact order**:
 
 ### 1. Stage Your Changes (The "Pack the Box" Step)
 Tell Git which modified files you want to prepare for saving. The period `.` means "grab every single change in this folder."
@@ -47,16 +47,19 @@ quarto publish gh-pages
 ## Troubleshooting/FAQ
 
 ❓ "I ran quarto publish gh-pages but my changes aren't showing up on my link!"
+
 Did you save your file? Look at the top tab of your file in VS Code or RStudio. If you see a solid circle or dot next to the filename, your file has unsaved changes! Press Ctrl + S (Windows) or Cmd + S (Mac) and try publishing again.
 
 Give it 60 seconds. Sometimes the GitHub servers take a minute to reload your fresh code. Hold down Shift and click the refresh button on your browser to clear your computer's temporary memory cache.
 
 ❓ "My terminal says fatal: not a git repository"
+
 This means your terminal is looking at the wrong folder on your computer (like your desktop instead of your project folder).
 
 Go to the top menu of your editor and select File > Open Project (RStudio) or Open Folder (VS Code) and make sure you explicitly clicked on your my-research-project folder. Then open a fresh terminal.
 
 ❓ "Git is asking for a username or password/token!"
+
 Don't panic! It just wants to verify you own the repository.
 
 If a window pops up asking you to sign in via your browser, click Authorize.
