@@ -23,8 +23,8 @@ Here is where you will discuss how you cleaned, engineered, or otherwise adjuste
 
 Here is where you can include any exploratory data analysis (EDA) you performed on your data. You can include any visualizations, summary statistics, or other analyses you performed to better understand your data. Make sure to include any relevant code snippets, and explain what you learned from your EDA.
 
-![Pairplot of the iris dataset](02_iris_pairplot.png)
+![Pairplot of the iris dataset](../02_iris_pairplot.png)
 
-![Violin plot of the penguins dataset](05_penguin_violin.png)
+![Violin plot of the penguins dataset](../05_penguin_violin.png)
 
-![Heatmap of the iris dataset](06_iris_heatmap.png)
+![Heatmap of the iris dataset](../06_iris_heatmap.png)

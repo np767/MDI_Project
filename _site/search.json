@@ -28,6 +28,13 @@
     "text": "Data Cleaning\nHere is where you will discuss how you cleaned, engineered, or otherwise adjusted any of the data from the Acquisition stage."
   },
   {
+    "objectID": "modules/data.html#eda",
+    "href": "modules/data.html#eda",
+    "title": "Data ETL",
+    "section": "EDA",
+    "text": "EDA\nHere is where you can include any exploratory data analysis (EDA) you performed on your data. You can include any visualizations, summary statistics, or other analyses you performed to better understand your data. Make sure to include any relevant code snippets, and explain what you learned from your EDA.\n\n\n\nPairplot of the iris dataset\n\n\n\n\n\nViolin plot of the penguins dataset\n\n\n\n\n\nHeatmap of the iris dataset"
+  },
+  {
     "objectID": "modules/about.html",
     "href": "modules/about.html",
     "title": "About",
