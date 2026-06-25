@@ -18,3 +18,13 @@ Here is where you will talk about HOW you acquired your data. Detail any APIs us
 ## Data Cleaning
 
 Here is where you will discuss how you cleaned, engineered, or otherwise adjusted any of the data from the Acquisition stage. 
+
+## EDA
+
+Here is where you can include any exploratory data analysis (EDA) you performed on your data. You can include any visualizations, summary statistics, or other analyses you performed to better understand your data. Make sure to include any relevant code snippets, and explain what you learned from your EDA.
+
+![Pairplot of the iris dataset](02_iris_pairplot.png)
+
+![Violin plot of the penguins dataset](05_penguin_violin.png)
+
+![Heatmap of the iris dataset](06_iris_heatmap.png)
