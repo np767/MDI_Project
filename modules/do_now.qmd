@@ -1,6 +1,6 @@
 ---
-title: "Do Now: Wednesday, June 24th"
-subtitle: "Data Science Corps Day 3: Getting Data"
+title: "Do Now: Thursday, June 25th"
+subtitle: "Data Science Corps Day 4: Exploratory Data Analaysis (EDA)"
 
 format:
   html:
@@ -8,57 +8,56 @@ format:
     number-sections: false
 ---
 
-## Welcome to Day 3! 
+## Welcome to Day 4! 
 
-Complete these **four precise steps** immediately upon taking your seat to make sure we're all starting from the same place!
+Complete these **3 precise steps** immediately upon taking your seat to make sure we're all starting from the same place!
 
-### Step 1: Open all necessary windows
+### Step 1: Open all necessary windows, check github status, and re-publish your page (Standard Operating Procedure)
 
 Things you may need to open:
 
 - IDE: **RStudio** or **VS Code**. Make sure you open the correct `research-project` folder (File --> Open Project/Folder --> `my-research-project`)
 - Web Browser: Open your **github repository**, your **github pages url**, AND **this Do Now page** (np767.github.io/MDI_Project/do_now.html/)
 
-### Step 2: Make sure your github is bug-free
-
-Run the following command in the terminal once you have opened your project folder:
+- Run the following command in the terminal once you have opened your project folder:
 
 ```bash
 git status
 ```
-
 🙋CHECKPOINT: Look at the output in your terminal.
 
-* If it says **On branch main** or **On branch master**, proceed to Step 3.
-* If it says **fatal: not a git repository**, or anything else, raise your hand and I will come and help you.
+- If it says **On branch main** or **On branch master**, proceed to Step 3.
+- If it says **fatal: not a git repository**, or anything else, raise your hand and I will come and help you.
 
-### Step 3: Publish your page again
-
-Re-publish your page to make sure all changes/updates are live. Run the following command **exactly** in the terminal:
+- Re-publish your page to make sure all changes/updates are live. Run the following command **exactly** in the terminal:
 
 ```bash
 quarto publish gh-pages
 ```
 
-Once it publishes, refresh your page once or twice to make sure no links are broken, and all your work is accurate and updated.
+- Once it publishes, refresh your page once or twice to make sure no links are broken, and all your work is accurate and updated.
 
----
+### Step 2: Create a new `eda_sandbox.py` file
 
-> From Thursday (tomorrow), steps 1, 2, and 3 should be standard operating procedure for starting each afternoon session!
+- Create a new file in your project folder called `eda_sandbox.py`. This is where you will write your Python code for EDA. You can copy my template (by finding my `eda_sandbox.py` file inside the `scripts` folder in my repository), or create your own with custom Python code!
 
----
+### Step 3: Create a new `data.qmd` file
 
-### Step 4: The Game Plan — Catching Up and Moving Forward
+- Create a new file in your project folder called `data.qmd`. This is where you will document your data source as well as a brief summary of the contents of the data. You can copy my template (by finding my `data.qmd` file inside the `modules` folder in my repository), or create your own with custom Markdown!
 
-Today is a "bridge" day. Before we can download datasets, we must lock in our research goals. Your milestones for today's lab session are:
 
-1.  **Literature Review:** Complete your reading and summarize **AT LEAST 1** target background paper on your homepage. Update your `index.qmd` file to reflect your summary and findings.
+### The Game Plan
 
-2.  **Research Questions:** Narrow your target scope down to **AT LEAST 1** Primary question. Update your `index.qmd` file to reflect your research question(s).
+Today we are going to practice data cleaning and exploratory data analysis (EDA) using toy datasets. You will be able to use the skills you learn today to clean and analyze your own research data in the coming days.
 
-3.  **Locate Data:** Identify **AT LEAST 1** exact CSV link, API, or database you will analyze. 
+1.  **`eda_sandbox.py`** We're going to work through this file together to practice data cleaning and EDA. You will be able to use the skills you learn today to clean and analyze your own research data in the coming days.
 
-4.  **Start the Data Tab:** Create a new file in your project folder called `data.qmd`. Update your `data.qmd` file to document your data source as well as a brief summary of the contents of the data. Feel free to copy my template (by finding my `data.qmd` file inside the `modules` folder in my repository), or create your own with custom Markdown!
+2.  **`data.qmd`** We are going to update this file to document your data source as well as a brief summary of the contents of the data. You can copy my template (by finding my `data.qmd` file inside the `modules` folder in my repository), or create your own with custom Markdown!
+    1.  **NOTE:** If you do not have a data source yet, you can use the toy datasets we will be working with today. You can also use your own data source if you have one ready to go.
+
+3.  **`_quarto.yml`** The next step is to update this file to add the Data tab to your navigation menu. This is a very important step, because if you do not do this, your data tab will **not** show up in the top navigation bar when you re-publish your page. Use my template (by finding my `_quarto.yml` file inside the `modules` folder in my repository) as an example.
+
+4.  **Presentation:** After all the above steps are completed, make sure to go through all Github Pages steps, and re-publish your page. Then, check your website to make sure all links are working and your data tab is showing up in the top navigation bar.
 
 :::{.callout-note collapse="true"}
 ## Important: How to add the Data tab to your navigation menu
